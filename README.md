@@ -6,7 +6,7 @@ Getting random value from an array as much as you like.
 
 ```javascript
 var array = [0,1,2,3,4,5];
-var rnd = Randomly(array);
+var rnd = new Randomly(array);
 var pickoutNum = 1;
 var result = rnd.pickout(pickoutNum);
 
@@ -20,7 +20,7 @@ console.log(result.unmached); // ex) [0,2,3,4,5]
 grunt
 ```
 
-see http://localhost:9000/tests/qunit/test/
+see http://localhost:9000/tests/qunit/test/ or http://geckotang.github.io/randomly/tests/qunit/test/
 
 ## License
 

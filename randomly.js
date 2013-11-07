@@ -6,10 +6,8 @@
 (function(window, document, undefined){
 	"use strict";
 
-	function Randomly(array) {
-		return (this instanceof Randomly)
-			? this.init(array)
-			: new Randomly(array);
+	var Randomly = function(array) {
+		this.init(array);
 	};
 
 	// @param array {Array} シャッフルしたい配列
@@ -28,7 +26,7 @@
 		return that;
 	};
 
-	// @return {Array} 
+	// @return {Array}
 	Randomly.prototype.getArray = function() {
 		var that = this;
 		return that.array;
