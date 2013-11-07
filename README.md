@@ -21,3 +21,8 @@ grunt
 ```
 
 see http://localhost:9000/tests/qunit/test/
+
+## License
+
+Copyright (c) 2013 "Geckotang" Shotaro Sakamaki
+Licensed under the MIT license.
